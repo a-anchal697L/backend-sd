@@ -21,7 +21,7 @@ Enable startups to discover, claim, and track exclusive SaaS deals while maintai
 ---
 
 
-## 🛣 API Endpoints
+##  API Endpoints
 
 ### Authentication Endpoints
 
@@ -283,7 +283,7 @@ Response 200:
 ```bash
 # 1. Clone repository
 git clone <repository-url>
-cd backend
+cd backend-sd
 
 # 2. Install dependencies
 npm install
