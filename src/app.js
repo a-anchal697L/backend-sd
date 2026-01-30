@@ -16,6 +16,7 @@ const errorMiddleware = require("./middleware/error.js");
 app.use(cors({
   origin: true
 }));
+
 app.options("*", cors());
 app.use(express.json());
 
