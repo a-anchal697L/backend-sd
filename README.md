@@ -1,4 +1,3 @@
-# Startup Benefits Platform - Backend
 
 A RESTful API built with Node.js, Express, and MongoDB for managing startup deals, user authentication, and claim processing.
 
@@ -22,7 +21,7 @@ Enable startups to discover, claim, and track exclusive SaaS deals while maintai
 ---
 
 
-## 🛣 API Endpoints
+##  API Endpoints
 
 ### Authentication Endpoints
 
@@ -284,13 +283,13 @@ Response 200:
 ```bash
 # 1. Clone repository
 git clone <repository-url>
-cd backend
+cd backend-sd
 
 # 2. Install dependencies
 npm install
 
 # 3. Create environment file
-cp .env.example 
+cp .env 
 
 # 4. Configure environment variables
 # Edit .env with your MongoDB URI, JWT secret, etc.
@@ -325,7 +324,7 @@ CORS_ORIGIN=http://localhost:3000
 ```
 ---
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 ### Implemented Security Measures
 
