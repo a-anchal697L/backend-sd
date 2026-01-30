@@ -14,10 +14,10 @@ const errorMiddleware = require("./middleware/error.js");
 // );
 
 app.use(cors({
-  origin: true
+  origin: true,
+  credentials: true
 }));
 
-app.options("*", cors());
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
